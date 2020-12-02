@@ -49,6 +49,8 @@ export default function Home({ launches }) {
   )
 }
 
+
+
 export async function getStaticProps() {
 
   const client = new ApolloClient({
