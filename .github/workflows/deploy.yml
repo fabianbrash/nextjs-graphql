@@ -34,6 +34,7 @@ jobs:
       - run: aws s3 sync ./out s3://fb-nextjs-graphql
       - uses: battila7/get-version-action@v2
         with:
+          run: echo ${{ steps.get_version.outputs.version-without-v }}
           destination_dir: ${{ steps.get_version.outputs.version-without-v }}
 
       - uses: docker/build-push-action@v2
