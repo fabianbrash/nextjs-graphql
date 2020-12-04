@@ -33,6 +33,8 @@ jobs:
           aws-region: us-east-1
       - run: aws s3 sync ./out s3://fb-nextjs-graphql
       - uses: battila7/get-version-action@v2
+        with:
+          destination_dir: ${{ steps.get_version.outputs.version-without-v }}
 
       - uses: docker/build-push-action@v2
         with:
