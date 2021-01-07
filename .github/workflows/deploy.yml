@@ -39,6 +39,6 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           repository: fabianbrash/nextjs-graphql
-          tags: latest,0.9.3
+          tags: latest,0.9.4
           tag_with_sha: true
           tag_with_ref: true

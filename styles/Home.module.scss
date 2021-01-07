@@ -1,3 +1,5 @@
+$color-primary: #B0C4DE;
+/* $color-primary: #0070f3; */
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -24,20 +26,20 @@
   justify-content: center;
   align-items: center;
   color:#fff;
-}
 
-.footer img {
-  margin-left: 0.5rem;
-}
+  img {
+    margin-left: 0.5rem;
+  }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .title a {
-  color: #0070f3;
+  color: $color-primary;
   text-decoration: none;
 }
 
@@ -98,8 +100,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: $color-primary;
+  border-color: $color-primary;
 }
 
 .card h3 {

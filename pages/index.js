@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
 
 export default function Home({ launches }) {
