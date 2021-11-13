@@ -1,8 +1,13 @@
 ![Deploy](https://github.com/fabianbrash/nextjs-graphql/workflows/Deploy/badge.svg)
 
 
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## APP pulls launches from the SpaceX GraphQL API, the data is pulled at build time
+
+##
+
+### Last build 11-13-2021
 
 ## Getting Started
 
